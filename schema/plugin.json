@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "jupyterlab-dbt",
+  "description": "jupyterlab-dbt settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}

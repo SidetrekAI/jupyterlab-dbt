@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.2
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: seungchan@sidetrek.com
+author_name: Seungchan Lee
+has_binder: false
+has_settings: true
+kind: frontend
+labextension_name: jupyterlab-dbt
+project_short_description: A JupyterLab extension for DBT.
+python_name: jupyterlab_dbt
+repository: https://github.com/SidetrekAI/jupyterlab-dbt
+test: true
+
