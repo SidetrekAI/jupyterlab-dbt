@@ -57,8 +57,18 @@
         "watch:labextension": "jupyter labextension watch ."
     },
     "dependencies": {
-        "@jupyterlab/application": "^4.0.0",
-        "@jupyterlab/settingregistry": "^4.0.0"
+        "@jupyterlab/application": "^4.2.3",
+        "@jupyterlab/apputils": "^4.3.3",
+        "@jupyterlab/launcher": "^4.2.3",
+        "@jupyterlab/settingregistry": "^4.0.0",
+        "@jupyterlab/ui-components": "^4.2.3",
+        "@lumino/widgets": "^2.4.0",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "lucide-react": "^0.400.0",
+        "react-icons": "^5.2.1",
+        "tailwind-merge": "^2.3.0",
+        "tailwindcss-animate": "^1.0.7"
     },
     "devDependencies": {
         "@jupyterlab/builder": "^4.0.0",
@@ -84,6 +94,7 @@
         "stylelint-config-standard": "^34.0.0",
         "stylelint-csstree-validator": "^3.0.0",
         "stylelint-prettier": "^4.0.0",
+        "tailwindcss": "^3.4.4",
         "typescript": "~5.0.2",
         "yjs": "^13.5.0"
     },
@@ -162,20 +173,6 @@
             "eqeqeq": "error",
             "prefer-arrow-callback": "error"
         }
-    },
-    "prettier": {
-        "singleQuote": true,
-        "trailingComma": "none",
-        "arrowParens": "avoid",
-        "endOfLine": "auto",
-        "overrides": [
-            {
-                "files": "package.json",
-                "options": {
-                    "tabWidth": 4
-                }
-            }
-        ]
     },
     "stylelint": {
         "extends": [
